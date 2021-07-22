@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSClockBar</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>26C99B6700A6896F8496F5E80D3DBEA9A01C1053</string>
+				<key>dateExpires</key>
+				<string>7/13/26</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>com.apple.security.app-sandbox</key>
+				<false/>
+				<key>com.apple.security.automation.apple-events</key>
+				<true/>
+				<key>com.apple.security.files.user-selected.read-only</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>DSClockBar.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>3BT7A38RRX</string>
+				<key>name</key>
+				<string>Amos Todman</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

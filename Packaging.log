@@ -1,0 +1,99 @@
+2021-07-12 21:07:39 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff5f6c9ca70; archive(resolved)='<IDEArchive: 0x7ff5f6cd25e0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff5f6c9ca70; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff5f85c7e60; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f9c2d3f0; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f9c16f80; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f8c78c10; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f7cd5620; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f6cf9310; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff5f85a4fe0; teamID='3BT7A38RRX', teamName='Amos Todman', teamType='Individual', username='wizdom@comcast.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff5f8c7c370; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='(null)'>
+	<IDEDistributionContext: 0x7ff5f7cfeda0; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='(null)'>
+	<IDEDistributionContext: 0x7ff5f8b51b90; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7ff5f8357180>', team='(null)'>
+	<IDEDistributionContext: 0x7ff5f8c22540; archive = '<IDEArchive: 0x7ff5f6cd25e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff5f6c9ca70>
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionCopyItemStep
+2021-07-12 21:07:39 +0000  Running /usr/bin/ditto '-V' '/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app' '/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app'
+2021-07-12 21:07:39 +0000  >>> Copying /Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app 
+2021-07-12 21:07:39 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2021-07-12 21:07:39 +0000  3240 bytes for ./Contents/_CodeSignature/CodeResources
+2021-07-12 21:07:39 +0000  copying file ./Contents/MacOS/DSClockBar ... 
+2021-07-12 21:07:39 +0000  370208 bytes for ./Contents/MacOS/DSClockBar
+2021-07-12 21:07:39 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2021-07-12 21:07:39 +0000  21209 bytes for ./Contents/Resources/AppIcon.icns
+2021-07-12 21:07:39 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2021-07-12 21:07:39 +0000  36700 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2021-07-12 21:07:39 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-07-12 21:07:39 +0000  163 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2021-07-12 21:07:39 +0000  copying file ./Contents/Resources/Assets.car ... 
+2021-07-12 21:07:39 +0000  77112 bytes for ./Contents/Resources/Assets.car
+2021-07-12 21:07:39 +0000  copying file ./Contents/Info.plist ... 
+2021-07-12 21:07:39 +0000  1713 bytes for ./Contents/Info.plist
+2021-07-12 21:07:39 +0000  copying file ./Contents/PkgInfo ... 
+2021-07-12 21:07:39 +0000  8 bytes for ./Contents/PkgInfo
+2021-07-12 21:07:39 +0000  /usr/bin/ditto exited with 0
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-07-12 21:07:39 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff5f81115c0; bundleID='com.dontsnooze.DSCalendarBar', path='<DVTFilePath:0x7ff5f6cd1bf0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff5f5ed5220; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='(null)', identifier='com.dontsnooze.DSCalendarBar', executablePath='<DVTFilePath:0x7ff5f6cd41f0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app/Contents/MacOS/DSClockBar'>', hardenedRuntime='0'>'>
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-07-12 21:07:39 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-07-12 21:07:39 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-07-12 21:07:39 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionSymbolsStep
+2021-07-12 21:07:39 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionAppThinningStep
+2021-07-12 21:07:39 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionArchThinningStep
+2021-07-12 21:07:39 +0000  Running /Applications/Xcode_12.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app/Contents/MacOS/DSClockBar' '-verify_arch' 'arm64e'
+2021-07-12 21:07:39 +0000  /Applications/Xcode_12.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-07-12 21:07:39 +0000  Skipping architecture thinning for item "DSClockBar" because arch "arm64e" wasn't found
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionODRStep
+2021-07-12 21:07:39 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-07-12 21:07:39 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app'
+2021-07-12 21:07:40 +0000  /usr/bin/xattr exited with 0
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionCodesignStep
+2021-07-12 21:07:40 +0000  Entitlements for <IDEDistributionItem: 0x7ff5f81115c0; bundleID='com.dontsnooze.DSCalendarBar', path='<DVTFilePath:0x7ff5f6cd1bf0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff5f5ed5220; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='(null)', identifier='com.dontsnooze.DSCalendarBar', executablePath='<DVTFilePath:0x7ff5f6cd41f0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app/Contents/MacOS/DSClockBar'>', hardenedRuntime='0'>'>: {
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2021-07-12 21:07:40 +0000  Entitlements for <IDEDistributionItem: 0x7ff5f81115c0; bundleID='com.dontsnooze.DSCalendarBar', path='<DVTFilePath:0x7ff5f6cd1bf0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff5f5ed5220; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='(null)', identifier='com.dontsnooze.DSCalendarBar', executablePath='<DVTFilePath:0x7ff5f6cd41f0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app/Contents/MacOS/DSClockBar'>', hardenedRuntime='0'>'> are: {
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2021-07-12 21:07:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff5f81115c0; bundleID='com.dontsnooze.DSCalendarBar', path='<DVTFilePath:0x7ff5f6cd1bf0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff5f5ed5220; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.automation.apple-events" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='(null)', identifier='com.dontsnooze.DSCalendarBar', executablePath='<DVTFilePath:0x7ff5f6cd41f0:'/Users/amostodman/Library/Developer/Xcode/Archives/2021-07-12/DSClockBar 7-12-21, 5.02 PM.xcarchive/Products/Applications/DSClockBar.app/Contents/MacOS/DSClockBar'>', hardenedRuntime='0'>'> to: /var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/entitlements~~~XdBS7j
+2021-07-12 21:07:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '26C99B6700A6896F8496F5E80D3DBEA9A01C1053' '--entitlements' '/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/entitlements~~~XdBS7j' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "3BT7A38RRX" ))' '/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app'
+2021-07-12 21:07:40 +0000  /var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app: replacing existing signature
+2021-07-12 21:07:40 +0000  /var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app: signed app bundle with Mach-O universal (x86_64 arm64) [com.dontsnooze.DSCalendarBar]
+2021-07-12 21:07:40 +0000  /usr/bin/codesign exited with 0
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-07-12 21:07:40 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionSkipPackagingStep
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-07-12 21:07:40 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-07-12 21:07:40 +0000  IDEDistributionItem init <DVTFilePath:0x7ff5f853fd40:'/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app'>
+2021-07-12 21:07:40 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x7ff5f853fd40:'/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x7ff5f6c85510:'/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x7ff5f6c85510:'/var/folders/ws/qr8g3vg971b1brk2vr0wq2440000gn/T/XcodeDistPipeline.~~~jo5nck/Root/Applications/DSClockBar.app/Contents/embedded.provisionprofile'>}
+2021-07-12 21:07:40 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-07-12 21:07:40 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
